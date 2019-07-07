@@ -10,3 +10,7 @@ spring:
     driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/test?serverTimezone=Hongkong
     username: root
+mybatis:
+  config-locations: classpath:mybatis/confg.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.jk.model
